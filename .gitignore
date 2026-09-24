@@ -41,3 +41,4 @@ Thumbs.db
 
 # Large raw archive
 data/raw/ml-latest-small.zip
+*.zip
