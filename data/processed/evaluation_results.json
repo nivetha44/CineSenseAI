@@ -1,0 +1,39 @@
+{
+  "evaluation_info": {
+    "users_evaluated": 148,
+    "catalog_size": 9742,
+    "protocol": "Held-out test set (25% positive user ratings withheld, threshold >= 3.5-4.0)"
+  },
+  "models": [
+    {
+      "name": "Popularity Baseline",
+      "precision_at_5": 0.0905,
+      "precision_at_10": 0.0655,
+      "recall_at_10": 0.0464,
+      "hit_rate_at_10": 0.3649,
+      "catalog_coverage_pct": 0.21,
+      "intra_list_diversity": 0.9587,
+      "unique_items_recommended": 20
+    },
+    {
+      "name": "Content-Based",
+      "precision_at_5": 0.0095,
+      "precision_at_10": 0.0061,
+      "recall_at_10": 0.002,
+      "hit_rate_at_10": 0.0608,
+      "catalog_coverage_pct": 11.91,
+      "intra_list_diversity": 0.2437,
+      "unique_items_recommended": 1160
+    },
+    {
+      "name": "Hybrid (CineSenseAI)",
+      "precision_at_5": 0.0459,
+      "precision_at_10": 0.0446,
+      "recall_at_10": 0.0308,
+      "hit_rate_at_10": 0.3176,
+      "catalog_coverage_pct": 6.27,
+      "intra_list_diversity": 0.6162,
+      "unique_items_recommended": 611
+    }
+  ]
+}

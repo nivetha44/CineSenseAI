@@ -1,0 +1,620 @@
+{
+  "dataset_name": "MovieLens Latest Small (GroupLens Research)",
+  "total_movies": 9742,
+  "total_ratings": 100836,
+  "total_users": 610,
+  "total_tags": 3683,
+  "avg_rating": 3.5,
+  "min_rating": 0.5,
+  "max_rating": 5.0,
+  "rating_density_pct": 1.7,
+  "rating_distribution": [
+    {
+      "rating": 0.5,
+      "count": 1370
+    },
+    {
+      "rating": 1.0,
+      "count": 2811
+    },
+    {
+      "rating": 1.5,
+      "count": 1791
+    },
+    {
+      "rating": 2.0,
+      "count": 7551
+    },
+    {
+      "rating": 2.5,
+      "count": 5550
+    },
+    {
+      "rating": 3.0,
+      "count": 20047
+    },
+    {
+      "rating": 3.5,
+      "count": 13136
+    },
+    {
+      "rating": 4.0,
+      "count": 26818
+    },
+    {
+      "rating": 4.5,
+      "count": 8551
+    },
+    {
+      "rating": 5.0,
+      "count": 13211
+    }
+  ],
+  "genre_distribution": [
+    {
+      "genre": "Drama",
+      "movie_count": 4361,
+      "avg_rating": 3.41
+    },
+    {
+      "genre": "Comedy",
+      "movie_count": 3756,
+      "avg_rating": 3.18
+    },
+    {
+      "genre": "Thriller",
+      "movie_count": 1894,
+      "avg_rating": 3.15
+    },
+    {
+      "genre": "Action",
+      "movie_count": 1828,
+      "avg_rating": 3.09
+    },
+    {
+      "genre": "Romance",
+      "movie_count": 1596,
+      "avg_rating": 3.35
+    },
+    {
+      "genre": "Adventure",
+      "movie_count": 1263,
+      "avg_rating": 3.21
+    },
+    {
+      "genre": "Crime",
+      "movie_count": 1199,
+      "avg_rating": 3.29
+    },
+    {
+      "genre": "Sci-Fi",
+      "movie_count": 980,
+      "avg_rating": 3.1
+    },
+    {
+      "genre": "Horror",
+      "movie_count": 978,
+      "avg_rating": 2.92
+    },
+    {
+      "genre": "Fantasy",
+      "movie_count": 779,
+      "avg_rating": 3.21
+    },
+    {
+      "genre": "Children",
+      "movie_count": 664,
+      "avg_rating": 3.11
+    },
+    {
+      "genre": "Animation",
+      "movie_count": 611,
+      "avg_rating": 3.49
+    },
+    {
+      "genre": "Mystery",
+      "movie_count": 573,
+      "avg_rating": 3.33
+    },
+    {
+      "genre": "Documentary",
+      "movie_count": 440,
+      "avg_rating": 3.76
+    },
+    {
+      "genre": "War",
+      "movie_count": 382,
+      "avg_rating": 3.56
+    },
+    {
+      "genre": "Musical",
+      "movie_count": 334,
+      "avg_rating": 3.29
+    },
+    {
+      "genre": "Western",
+      "movie_count": 167,
+      "avg_rating": 3.38
+    },
+    {
+      "genre": "IMAX",
+      "movie_count": 158,
+      "avg_rating": 3.31
+    },
+    {
+      "genre": "Film-Noir",
+      "movie_count": 87,
+      "avg_rating": 3.59
+    }
+  ],
+  "most_rated_movies": [
+    {
+      "movieId": 356,
+      "clean_title": "Forrest Gump",
+      "release_year": 1994.0,
+      "rating_count": 329,
+      "rating_mean": 4.16,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_QL75_UY562_CR4,0,380,562_.jpg"
+    },
+    {
+      "movieId": 318,
+      "clean_title": "The Shawshank Redemption",
+      "release_year": 1994.0,
+      "rating_count": 317,
+      "rating_mean": 4.43,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg"
+    },
+    {
+      "movieId": 296,
+      "clean_title": "Pulp Fiction",
+      "release_year": 1994.0,
+      "rating_count": 307,
+      "rating_mean": 4.2,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_QL75_UY562_CR3,0,380,562_.jpg"
+    },
+    {
+      "movieId": 593,
+      "clean_title": "The Silence of the Lambs",
+      "release_year": 1991.0,
+      "rating_count": 279,
+      "rating_mean": 4.16,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BNDdhOGJhYzctYzYwZC00YmI2LWI0MjctYjg4ODdlMDExYjBlXkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg"
+    },
+    {
+      "movieId": 2571,
+      "clean_title": "The Matrix",
+      "release_year": 1999.0,
+      "rating_count": 278,
+      "rating_mean": 4.19,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BN2NmN2VhMTQtMDNiOS00NDlhLTliMjgtODE2ZTY0ODQyNDRhXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg"
+    },
+    {
+      "movieId": 260,
+      "clean_title": "Star Wars: Episode IV - A New Hope",
+      "release_year": 1977.0,
+      "rating_count": 251,
+      "rating_mean": 4.23,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BOGUwMDk0Y2MtNjBlNi00NmRiLTk2MWYtMGMyMDlhYmI4ZDBjXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "movieId": 480,
+      "clean_title": "Jurassic Park",
+      "release_year": 1993.0,
+      "rating_count": 238,
+      "rating_mean": 3.75,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMjM2MDgxMDg0Nl5BMl5BanBnXkFtZTgwNTM2OTM5NDE@._V1_SX300.jpg"
+    },
+    {
+      "movieId": 110,
+      "clean_title": "Braveheart",
+      "release_year": 1995.0,
+      "rating_count": 237,
+      "rating_mean": 4.03,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BNGMxZDBhNGQtYTZlNi00N2UzLWI4NDEtNmUzNWM2NTdmZDA0XkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "movieId": 589,
+      "clean_title": "Terminator 2: Judgment Day",
+      "release_year": 1991.0,
+      "rating_count": 224,
+      "rating_mean": 3.97,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BNGMyMGNkMDUtMjc2Ni00NWFlLTgyODEtZTY2MzBiZTg0OWZiXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg"
+    },
+    {
+      "movieId": 527,
+      "clean_title": "Schindler's List",
+      "release_year": 1993.0,
+      "rating_count": 220,
+      "rating_mean": 4.22,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BNjM1ZDQxYWUtMzQyZS00MTE1LWJmZGYtNGUyNTdlYjM3ZmVmXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg"
+    },
+    {
+      "movieId": 2959,
+      "clean_title": "Fight Club",
+      "release_year": 1999.0,
+      "rating_count": 218,
+      "rating_mean": 4.27,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg"
+    },
+    {
+      "movieId": 1,
+      "clean_title": "Toy Story",
+      "release_year": 1995.0,
+      "rating_count": 215,
+      "rating_mean": 3.92,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BZTA3OWVjOWItNjE1NS00NzZiLWE1MjgtZDZhMWI1ZTlkNzYwXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "movieId": 1196,
+      "clean_title": "Star Wars: Episode V - The Empire Strikes Back",
+      "release_year": 1980.0,
+      "rating_count": 211,
+      "rating_mean": 4.22,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMTkxNGFlNDktZmJkNC00MDdhLTg0MTEtZjZiYWI3MGE5NWIwXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "movieId": 2858,
+      "clean_title": "American Beauty",
+      "release_year": 1999.0,
+      "rating_count": 204,
+      "rating_mean": 4.06,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMDI1MDE0OTMtMmI2MS00Yjc2LTg2MTItMWExYTg5NzA1OGUzXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "movieId": 50,
+      "clean_title": "The Usual Suspects",
+      "release_year": 1995.0,
+      "rating_count": 204,
+      "rating_mean": 4.24,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BOTE5MDUxZDUtZWZmZC00NDVmLWFhOGQtNWI2YTc4NzY3MGQ0XkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg"
+    }
+  ],
+  "highest_rated_movies": [
+    {
+      "movieId": 318,
+      "clean_title": "The Shawshank Redemption",
+      "release_year": 1994.0,
+      "rating_count": 317,
+      "rating_mean": 4.43,
+      "bayesian_rating": 4.4,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg"
+    },
+    {
+      "movieId": 858,
+      "clean_title": "The Godfather",
+      "release_year": 1972.0,
+      "rating_count": 192,
+      "rating_mean": 4.29,
+      "bayesian_rating": 4.25,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_QL75_UY562_CR8,0,380,562_.jpg"
+    },
+    {
+      "movieId": 750,
+      "clean_title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+      "release_year": 1964.0,
+      "rating_count": 97,
+      "rating_mean": 4.27,
+      "bayesian_rating": 4.2,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMjFjYzBlOTktMTI2OS00ZWVhLTgxMDUtNzAwODY2NmI3YTAzXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "movieId": 1276,
+      "clean_title": "Cool Hand Luke",
+      "release_year": 1967.0,
+      "rating_count": 57,
+      "rating_mean": 4.27,
+      "bayesian_rating": 4.16,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BYzI1NzBkNmMtOWRmMS00YmY2LTk5MjQtZjAzMmIwZDQ2M2UwXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "movieId": 2959,
+      "clean_title": "Fight Club",
+      "release_year": 1999.0,
+      "rating_count": 218,
+      "rating_mean": 4.27,
+      "bayesian_rating": 4.24,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg"
+    },
+    {
+      "movieId": 1221,
+      "clean_title": "The Godfather: Part II",
+      "release_year": 1974.0,
+      "rating_count": 129,
+      "rating_mean": 4.26,
+      "bayesian_rating": 4.21,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMDIxMzBlZDktZjMxNy00ZGI4LTgxNDEtYWRlNzRjMjJmOGQ1XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg"
+    },
+    {
+      "movieId": 904,
+      "clean_title": "Rear Window",
+      "release_year": 1954.0,
+      "rating_count": 84,
+      "rating_mean": 4.26,
+      "bayesian_rating": 4.18,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BODZhOWI1ODgtMzdiOS00YjNkLTgwOGUtYmIyZDg5ZmQwMzQ1XkEyXkFqcGc@._V1_QL75_UY562_CR2,0,380,562_.jpg"
+    },
+    {
+      "movieId": 48516,
+      "clean_title": "The Departed",
+      "release_year": 2006.0,
+      "rating_count": 107,
+      "rating_mean": 4.25,
+      "bayesian_rating": 4.19,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_QL75_UY562_CR0,0,380,562_.jpg"
+    },
+    {
+      "movieId": 1213,
+      "clean_title": "Goodfellas",
+      "release_year": 1990.0,
+      "rating_count": 126,
+      "rating_mean": 4.25,
+      "bayesian_rating": 4.19,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_QL75_UX380_CR0,3,380,562_.jpg"
+    },
+    {
+      "movieId": 58559,
+      "clean_title": "The Dark Knight",
+      "release_year": 2008.0,
+      "rating_count": 149,
+      "rating_mean": 4.24,
+      "bayesian_rating": 4.19,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_QL75_UX380_CR0,0,380,562_.jpg"
+    },
+    {
+      "movieId": 912,
+      "clean_title": "Casablanca",
+      "release_year": 1942.0,
+      "rating_count": 100,
+      "rating_mean": 4.24,
+      "bayesian_rating": 4.17,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BNWEzN2U1YTYtYTQyMS00NTVkLWE2NGQtZWFlMmM0MDNjMmRiXkEyXkFqcGc@._V1_QL75_UX380_CR0,5,380,562_.jpg"
+    },
+    {
+      "movieId": 50,
+      "clean_title": "The Usual Suspects",
+      "release_year": 1995.0,
+      "rating_count": 204,
+      "rating_mean": 4.24,
+      "bayesian_rating": 4.21,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BOTE5MDUxZDUtZWZmZC00NDVmLWFhOGQtNWI2YTc4NzY3MGQ0XkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg"
+    },
+    {
+      "movieId": 1197,
+      "clean_title": "The Princess Bride",
+      "release_year": 1987.0,
+      "rating_count": 142,
+      "rating_mean": 4.23,
+      "bayesian_rating": 4.18,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BMjFiOTEyNGMtN2E4MC00ZjZlLTk3ZDQtNTU1ZGNiZTA1MzJlXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "movieId": 260,
+      "clean_title": "Star Wars: Episode IV - A New Hope",
+      "release_year": 1977.0,
+      "rating_count": 251,
+      "rating_mean": 4.23,
+      "bayesian_rating": 4.2,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BOGUwMDk0Y2MtNjBlNi00NmRiLTk2MWYtMGMyMDlhYmI4ZDBjXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "movieId": 527,
+      "clean_title": "Schindler's List",
+      "release_year": 1993.0,
+      "rating_count": 220,
+      "rating_mean": 4.22,
+      "bayesian_rating": 4.19,
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BNjM1ZDQxYWUtMzQyZS00MTE1LWJmZGYtNGUyNTdlYjM3ZmVmXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg"
+    }
+  ],
+  "hidden_gems": [
+    {
+      "movieId": 1104,
+      "clean_title": "A Streetcar Named Desire",
+      "release_year": 1951.0,
+      "rating_count": 20,
+      "rating_mean": 4.47,
+      "genres": "Drama",
+      "poster_url": NaN
+    },
+    {
+      "movieId": 1217,
+      "clean_title": "Ran",
+      "release_year": 1985.0,
+      "rating_count": 15,
+      "rating_mean": 4.43,
+      "genres": "Drama|War",
+      "poster_url": NaN
+    },
+    {
+      "movieId": 3468,
+      "clean_title": "The Hustler",
+      "release_year": 1961.0,
+      "rating_count": 18,
+      "rating_mean": 4.33,
+      "genres": "Drama",
+      "poster_url": NaN
+    },
+    {
+      "movieId": 922,
+      "clean_title": "Sunset Blvd. (a.k.a. Sunset Boulevard)",
+      "release_year": 1950.0,
+      "rating_count": 27,
+      "rating_mean": 4.33,
+      "genres": "Drama|Film-Noir|Romance",
+      "poster_url": NaN
+    },
+    {
+      "movieId": 3435,
+      "clean_title": "Double Indemnity",
+      "release_year": 1944.0,
+      "rating_count": 17,
+      "rating_mean": 4.32,
+      "genres": "Crime|Drama|Film-Noir",
+      "poster_url": NaN
+    },
+    {
+      "movieId": 898,
+      "clean_title": "The Philadelphia Story",
+      "release_year": 1940.0,
+      "rating_count": 29,
+      "rating_mean": 4.31,
+      "genres": "Comedy|Drama|Romance",
+      "poster_url": NaN
+    },
+    {
+      "movieId": 1209,
+      "clean_title": "Once Upon a Time in the West (C'era una volta il West)",
+      "release_year": 1968.0,
+      "rating_count": 18,
+      "rating_mean": 4.31,
+      "genres": "Action|Drama|Western",
+      "poster_url": NaN
+    },
+    {
+      "movieId": 475,
+      "clean_title": "In the Name of the Father",
+      "release_year": 1993.0,
+      "rating_count": 25,
+      "rating_mean": 4.3,
+      "genres": "Drama",
+      "poster_url": NaN
+    },
+    {
+      "movieId": 1204,
+      "clean_title": "Lawrence of Arabia",
+      "release_year": 1962.0,
+      "rating_count": 45,
+      "rating_mean": 4.3,
+      "genres": "Adventure|Drama|War",
+      "poster_url": NaN
+    },
+    {
+      "movieId": 246,
+      "clean_title": "Hoop Dreams",
+      "release_year": 1994.0,
+      "rating_count": 29,
+      "rating_mean": 4.29,
+      "genres": "Documentary",
+      "poster_url": NaN
+    },
+    {
+      "movieId": 1235,
+      "clean_title": "Harold and Maude",
+      "release_year": 1971.0,
+      "rating_count": 26,
+      "rating_mean": 4.29,
+      "genres": "Comedy|Drama|Romance",
+      "poster_url": NaN
+    },
+    {
+      "movieId": 168252,
+      "clean_title": "Logan",
+      "release_year": 2017.0,
+      "rating_count": 25,
+      "rating_mean": 4.28,
+      "genres": "Action|Sci-Fi",
+      "poster_url": NaN
+    },
+    {
+      "movieId": 1276,
+      "clean_title": "Cool Hand Luke",
+      "release_year": 1967.0,
+      "rating_count": 57,
+      "rating_mean": 4.27,
+      "genres": "Drama",
+      "poster_url": "https://m.media-amazon.com/images/M/MV5BYzI1NzBkNmMtOWRmMS00YmY2LTk5MjQtZjAzMmIwZDQ2M2UwXkEyXkFqcGc@._V1_SX300.jpg"
+    },
+    {
+      "movieId": 1248,
+      "clean_title": "Touch of Evil",
+      "release_year": 1958.0,
+      "rating_count": 17,
+      "rating_mean": 4.26,
+      "genres": "Crime|Film-Noir|Thriller",
+      "poster_url": NaN
+    },
+    {
+      "movieId": 1267,
+      "clean_title": "The Manchurian Candidate",
+      "release_year": 1962.0,
+      "rating_count": 30,
+      "rating_mean": 4.25,
+      "genres": "Crime|Thriller|War",
+      "poster_url": NaN
+    }
+  ],
+  "decade_distribution": [
+    {
+      "decade": 1920,
+      "count": 37,
+      "avg_rating": 3.64
+    },
+    {
+      "decade": 1930,
+      "count": 136,
+      "avg_rating": 3.54
+    },
+    {
+      "decade": 1940,
+      "count": 197,
+      "avg_rating": 3.58
+    },
+    {
+      "decade": 1950,
+      "count": 279,
+      "avg_rating": 3.55
+    },
+    {
+      "decade": 1960,
+      "count": 401,
+      "avg_rating": 3.52
+    },
+    {
+      "decade": 1970,
+      "count": 500,
+      "avg_rating": 3.48
+    },
+    {
+      "decade": 1980,
+      "count": 1177,
+      "avg_rating": 3.16
+    },
+    {
+      "decade": 1990,
+      "count": 2212,
+      "avg_rating": 3.15
+    },
+    {
+      "decade": 2000,
+      "count": 2849,
+      "avg_rating": 3.26
+    },
+    {
+      "decade": 2010,
+      "count": 1931,
+      "avg_rating": 3.21
+    }
+  ],
+  "user_activity_distribution": [
+    {
+      "range": "20-50",
+      "count": 232
+    },
+    {
+      "range": "51-100",
+      "count": 133
+    },
+    {
+      "range": "101-250",
+      "count": 141
+    },
+    {
+      "range": "251-500",
+      "count": 61
+    },
+    {
+      "range": "500+",
+      "count": 43
+    }
+  ]
+}
