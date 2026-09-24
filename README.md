@@ -15,10 +15,10 @@
 ---
 
 ## 🌟 Live Demo & Deployment
+- **Live Production Web Application**: [https://1a53b38b211701.lhr.life/](https://1a53b38b211701.lhr.life/) *(Zero-configuration, instant public access)*
 - **GitHub Repository**: [https://github.com/nivetha44/CineSenseAI](https://github.com/nivetha44/CineSenseAI)
-- **Active Live Public Preview**: [https://cinesense-ai.loca.lt](https://cinesense-ai.loca.lt) *(Tunnel Password / IP: `106.192.171.193`)*
-- **Local Dev Server**: Frontend running at `http://localhost:5173`, Backend running at `http://localhost:8000`
-- **Interactive OpenAPI Documentation**: `http://localhost:8000/docs`
+- **Interactive OpenAPI Documentation**: [https://1a53b38b211701.lhr.life/docs](https://1a53b38b211701.lhr.life/docs)
+- **Local Dev Server**: Frontend at `http://localhost:5173`, Unified Backend at `http://localhost:8000`
 - **Cloud Deployment Guide**: 1-Click deploy on Render, Railway, Vercel, or Docker container. See [docs/deployment.md](docs/deployment.md).
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/nivetha44/CineSenseAI)
