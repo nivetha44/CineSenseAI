@@ -108,6 +108,16 @@ Every recommendation generates verifiable matching factors:
 
 ---
 
+## 📊 Dataset Reference & Link
+
+CineSenseAI is built upon the official **MovieLens Latest Small** dataset curated and maintained by **GroupLens Research** at the University of Minnesota:
+- **Direct Dataset Source & Download**: [https://grouplens.org/datasets/movielens/latest/](https://grouplens.org/datasets/movielens/latest/)
+- **GroupLens Portal**: [https://grouplens.org/datasets/movielens/](https://grouplens.org/datasets/movielens/)
+- **Academic Citation**: F. Maxwell Harper and Joseph A. Konstan. 2015. *The MovieLens Datasets: History and Context.* ACM Transactions on Interactive Intelligent Systems (TiiS) 5, 4: 19:1–19:19.
+- **Dataset Metrics**: 9,742 movies, 100,836 ratings, 610 unique users, 3,683 user tags, and IMDb/TMDb identifier links.
+
+---
+
 ## 📁 Repository Structure
 
 ```
